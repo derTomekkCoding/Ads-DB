@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//TODO: Add middleware
+
+Route::resource('creators', 'CreatorController');
+Route::resource('advertisers', 'AdvertiserController');
+Route::resource('platforms', 'PlatformController');
+Route::resource('types', 'TypeController');
+Route::resource('ads', 'AdController');
