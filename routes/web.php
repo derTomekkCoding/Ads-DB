@@ -11,11 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-//TODO: Add middleware
+Route::get('/', 'Base\IndexController@index');
 
 Route::resource('creators', 'CreatorController');
 Route::resource('advertisers', 'AdvertiserController');

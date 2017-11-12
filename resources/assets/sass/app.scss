@@ -2,5 +2,13 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 // Variables
 @import "variables";
-// Bootstrap
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
