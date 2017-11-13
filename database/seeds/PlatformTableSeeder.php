@@ -13,7 +13,7 @@ class PlatformTableSeeder extends Seeder
     {
         DB::table('platforms')->insert([
             'name' => 'Twitter',
-            'description' => 'Just Twitter.. ',
+            'description' => 'Just Twitter...',
             'url' => 'https://twitter.com',
         ]);
     }
